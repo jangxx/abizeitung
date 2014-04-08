@@ -1,8 +1,6 @@
 <?php
 require "constants.php";
 session_start();
-$con = ($GLOBALS["___mysqli_ston"] = mysqli_connect($MYSQL_ADDRESS, $MYSQL_USERNAME, $MYSQL_PASSWORD));
-((bool)mysqli_query($con, "USE $MYSQL_DATABASE"));
 
 if ($_SESSION["SESS_ID"] == "") {
 	$error["error"] = "You don't have permissions to do this. (lvl1)";
