@@ -1,0 +1,198 @@
+#admin-main {
+	width: 650px;
+}
+
+#overview-main {
+	width: 600px;
+}
+
+#news-main {
+	width: 800px;
+}
+
+.news-spinnercontainer {
+	width: 100%;
+	text-align: center;
+}
+
+.polls-spinnercontainer {
+	width: 100%;
+	text-align: center;
+}
+
+.polls-search-display {
+ 	max-height: 450px;
+}
+
+#input_search {
+	height: auto;
+	line-height: 20px;
+	width: 98%;
+}
+
+.admin-search-display {
+	background-color: #444;
+	width: 100%;
+	border-style: solid;
+	border-width: 1px;
+	border-color: #555;
+	margin-bottom: 10px;
+	max-height: 300px;
+	overflow-y: auto;
+	overflow-x: hidden;
+}
+
+.admin-search-element {
+	line-height: 40px;
+	background-color: #BBB;
+	border-top-color: #DDD;
+	border-top-style:solid;
+	border-top-width:1px;
+	border-bottom-color: #999;
+	border-bottom-style:solid;
+	border-bottom-width:1px;
+	padding-left: 10px;
+	padding-right: 10px;
+	padding-top: 5px;
+	font-family: Arial, Helvetiva, sans-serif;
+	color: #111;
+	font-size: 1em;
+}
+
+.ase-big {
+	height: 100px;
+}
+
+.admin-search-element-inputcontainer {
+	overflow-x: auto;
+	overflow-y: hidden;
+	white-space: nowrap;
+	width: 90%;
+	display: inline-block;
+}
+
+.admin-search-element-nameinput {
+	border-color: transparent;
+	background-color: transparent;
+	font-family: Arial, Helvetiva, sans-serif;
+	color: #111;
+	font-size: 1em;
+}
+
+.admin-search-element-delete {
+	width: 30px;
+	height: 30px;
+	background-image: url('../images/delete_element.png');
+	background-size: 30px;
+	background-repeat: no-repeat;
+	float: right;
+}
+
+.admin-search-element-delete:hover {
+	background-image: url('../images/delete_element-hover.png');
+	cursor: pointer;
+}
+
+.admin-search-element-edit {
+	width: 30px;
+	height: 30px;
+	background-image: url('../images/edit_element.png');
+	background-size: 30px;
+	background-repeat: no-repeat;
+	float: right;
+}
+
+.admin-search-element-edit:hover {
+	background-image: url('../images/edit_element-hover.png');
+	cursor: pointer;
+}
+
+.admin-add-input {
+	line-height: 20px;
+	width: 97%;
+}
+
+.admin-add-info-display {
+	margin-top: 10px;
+	margin-bottom: 10px;
+	border-radius: 5px;
+	background-color: #BBB;
+	padding: 5px;
+	display: none;
+}
+
+.admin-parse-textarea {
+	display: none;
+	width: 100%;
+	border-radius: 3px;
+	resize: none;
+	padding: 0px;
+	margin-bottom: 10px;
+}
+
+.admin-parse-fileselector {
+	color: #111;
+}
+
+.admin-search-element-textinput {
+	border-color: transparent;
+	background-color: transparent;
+	font-family: Arial, Helvetiva, sans-serif;
+	color: #111;
+	font-size: 1em;
+	width: 95%;
+	height: 90px;
+	resize: none;
+}
+
+.admin-electionlist {
+	background-color: #888;
+	width: 250px;
+	height: 400px;
+	overflow-y: auto;
+	overflow-x: hidden;
+	-webkit-overflow-scrolling: touch;
+	float: left;
+}
+
+.admin-elections-info {
+	margin-left: 250px;
+	width: 350px;
+	height: 400px;
+	text-align: center;
+}
+
+.admin-elections-name-entry, .admin-elections-name-entry-marked {
+	height: 30px;
+	line-height: 30px;
+	background-color: #555;
+	border-top-color: #777;
+	border-top-style:solid;
+	border-top-width:1px;
+	border-bottom-color: #333;
+	border-bottom-style:solid;
+	border-bottom-width:1px;
+	padding-left: 10px;
+	padding-right: 10px;
+	padding-top: 5px;
+	font-family: Arial, Helvetiva, sans-serif;
+	color: #EEE;
+	font-size: 1em;
+	overflow: hidden;
+	white-space: nowrap;
+	cursor: pointer;
+}
+
+.admin-elections-name-entry-marked {
+	background-color: #941010;
+}
+
+.admin-elections-name-entry:hover {
+	background-color: #1052be;
+}
+
+.admin-election-vote {
+	color: #941010;
+	font-size: 1.3em;
+	text-decoration: underline;
+}

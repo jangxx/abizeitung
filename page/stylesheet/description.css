@@ -1,0 +1,45 @@
+#desc-main {
+	width: 400px;
+}
+
+.desc-mini-button {
+	background-image: url('../images/button_1.png');
+	background-repeat: repeat-x;
+	background-size: 1px 20px;
+	min-width: 20px;
+	height: 20px;
+	border-style: solid;
+	border-color: #000;
+	border-width: 1px;
+	border-radius: 2px;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 1em !important;
+	color: #EEE;
+	text-align: center;
+	line-height: 20px;
+	cursor: pointer;
+}
+
+.desc-mini-button:hover {
+	background-image: url('../images/button_1-m.png');
+	background-size: 1px 20px;
+}
+
+.desc-futureplan {
+	line-height: 26px;
+}
+
+.desc-fpa {
+	display: inline-block;
+}
+
+.desc-futureplan-collection {
+	max-height: 250px;
+	overflow-x: hidden;
+	overflow-y: auto;
+}
+
+.desc-spinnercontainer {
+	width: 100%;
+	text-align: center;
+}

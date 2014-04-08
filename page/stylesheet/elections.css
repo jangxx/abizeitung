@@ -1,0 +1,102 @@
+@media screen and (max-width: 550px) {
+	.elections-nameslist-left {
+		float: none !important;
+		width: 100% !important;
+	}
+	
+	.elections-nameslist-right {
+		float: none !important;
+		width: 100% !important;
+	}
+	
+	.elections-info {
+		margin-left: auto !important;
+		margin-right: auto !important;
+	}
+}
+
+#elections-main {
+	width: 600px;
+}
+
+.elections-nameslist-left, .elections-nameslist-right {
+	background-color: #888;
+	width: 200px;
+	height: 300px;
+	overflow-y: auto;
+	overflow-x: hidden;
+	-webkit-overflow-scrolling: touch;
+}
+
+.elections-nameslist-left {
+	float: left;
+}
+
+.elections-nameslist-right {
+	float: right;
+}
+
+.elections-name-entry, .elections-name-entry-marked, .elections-name-search-entry {
+	height: 30px;
+	line-height: 30px;
+	background-color: #555;
+	border-top-color: #777;
+	border-top-style:solid;
+	border-top-width:1px;
+	border-bottom-color: #333;
+	border-bottom-style:solid;
+	border-bottom-width:1px;
+	padding-left: 10px;
+	padding-right: 10px;
+	padding-top: 5px;
+	font-family: Arial, Helvetiva, sans-serif;
+	color: #EEE;
+	font-size: 1em;
+	overflow: hidden;
+	white-space: nowrap;
+	cursor: pointer;
+}
+
+.elections-name-search-entry {
+	padding-bottom: 5px;
+	padding-left: 5px;
+	padding-right: 5px;
+	background-color: #666;
+}
+
+.elections-vote-image {
+	display: inline-block;
+	margin-top: 10px;
+	height: 100px;
+	width: 100px;
+}
+
+.elections-name-search-input {
+	padding: 0px !important;
+	color: #EEE !important;
+	font-size: 1em !important;
+	height: auto !important;
+}
+
+.elections-vote {
+	color: #941010;
+	font-size: 1.2em;
+	text-decoration: underline;
+	word-wrap: break-word;
+}
+
+.elections-info {
+	margin-left: 200px;
+	margin-right: 200px;
+	width: 200px;
+	height: 300px;
+	text-align: center;
+}
+
+.elections-name-entry-marked {
+	background-color: #941010;
+}
+
+.elections-name-entry:hover, .elections-container-name:hover {
+	background-color: #1052be;
+}

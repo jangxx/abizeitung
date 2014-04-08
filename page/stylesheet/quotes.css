@@ -1,0 +1,79 @@
+#quotes-main {
+	width: 500px;
+}
+
+.quotes-myquotes-list {
+	max-height: 400px;
+	overflow-y: auto;
+	overflow-x: hidden;
+}
+
+.quotes-quote-element {
+	line-height: 40px;
+	background-color: #BBB;
+	border-top-color: #DDD;
+	border-top-style:solid;
+	border-top-width:1px;
+	border-bottom-color: #999;
+	border-bottom-style:solid;
+	border-bottom-width:1px;
+	padding-left: 10px;
+	padding-right: 10px;
+	padding-top: 5px;
+	font-family: Arial, Helvetiva, sans-serif;
+	color: #111;
+	font-size: 1em;
+}
+
+.qqe-big {
+	height: 100px;
+}
+
+.quotes-quote-element-input {
+	padding: 0px;
+	width: 90%;
+	font-size: 1em;
+	display: inline-block;
+	height: 20px;
+}
+
+.quotes-quote-element-delete {
+	width: 30px;
+	height: 30px;
+	background-image: url('../images/delete_element.png');
+	background-size: 30px;
+	background-repeat: no-repeat;
+	float: right;
+}
+
+.quotes-quote-element-delete:hover {
+	background-image: url('../images/delete_element-hover.png');
+	cursor: pointer;
+}
+
+.quotes-quote-element-edit {
+	width: 30px;
+	height: 30px;
+	background-image: url('../images/edit_element.png');
+	background-size: 30px;
+	background-repeat: no-repeat;
+	float: right;
+}
+
+.quotes-quote-element-edit:hover {
+	background-image: url('../images/edit_element-hover.png');
+	cursor: pointer;
+}
+
+.quotes-quote-element-textinput {
+	border-color: transparent;
+	background-color: transparent;
+	font-family: Arial, Helvetiva, sans-serif;
+	color: #111;
+	font-size: 1em;
+	width: 90%;
+	height: 60px;
+	resize: none;
+	padding: 1px;
+	display: inline-block;
+}

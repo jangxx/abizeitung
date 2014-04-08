@@ -1,0 +1,12 @@
+#settings-main {
+	width: 350px;
+}
+
+#settings-spinner {
+	line-height: 30px;
+}
+
+.settings-spinnercontainer {
+	width: 100%;
+	text-align: center;
+}
