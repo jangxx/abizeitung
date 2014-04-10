@@ -13,10 +13,10 @@ Der Tools Order muss ebenfalls in einem für apache zugänglichem Pfad liegen.
 <h2>Tools</h2>
 
 <h3>comment_export.php</h3>
-Exportiert die Kommentare in Dateien in der Form "Nachname, Vorname,txt" in den Ordner export/comment-&gt;Uhrzeit&lt; und zeigt die Zahl der exportierten Kommentare an. Die Dateien sind im Windows Format mit \r\n als Newline-character. <i>Benötigt Schreibberechtigungen im tools Ordner.</i>
+Exportiert die Kommentare in Dateien in der Form <i>Nachname, Vorname,txt</i> in den Ordner <i>export/comment-&lt;Uhrzeit&gt;</i> und zeigt die Zahl der exportierten Kommentare an. Die Dateien sind im Windows Format mit \r\n als Newline-character. <strong>Benötigt Schreibberechtigungen im tools Ordner.</strong>
 
 <h3>description_export.php</h3>
-Exportiert die Steckbriefe aller Benutzer in die Datei desc-&gt;Uhrzeit&lt;.cvs im Ordner export. Die csv-Datei ist Tab-seperated. Dies muss beim Import in zB InDesign oder LibreOffice eingestellt werden. Das Encoding ist UTF-8.
+Exportiert die Steckbriefe aller Benutzer in die Datei <i>0desc-&lt;Uhrzeit&gt;.cvs</i> im Ordner <i>export</i>. Die csv-Datei ist Tab-seperated. Dies muss beim Import in z.B. InDesign oder LibreOffice eingestellt werden. Das Encoding ist UTF-8.
 
 <h3>names.php</h3>
 Gibt alle Namen im html-Format nach Nachnamen geordnet aus.
@@ -25,7 +25,7 @@ Gibt alle Namen im html-Format nach Nachnamen geordnet aus.
 Zeigt eine Vorschau der Seite eines gewählten Nutzers an. Diese enthält alle Steckbriefeinträge und Kommentare in selbstgewählter Ordnung.
 
 <h3>quotefiles-gen.php</h3>
-Ermöglicht den Export einer beliebigen Anzahl von Zitaten im txt-Format. <i>Benötigt Schreibberechtigungen im tools Ordner.</i>
+Ermöglicht den Export einer beliebigen Anzahl von Zitaten im txt-Format. <strong>>Benötigt Schreibberechtigungen im tools Ordner.</strong>
 
 <h3>quotes.php</h3>
 Zeigt alle eingesendeten Zitate im html-Format an.
@@ -34,7 +34,7 @@ Zeigt alle eingesendeten Zitate im html-Format an.
 Zeigt die Anzahl aller Kommentare, den Durchschnitt und die Zahl der Kommentare eines jeden Benutzers an.
 
 <h3>teachers.php</h3>
-Ermöglicht das scrapen der Seite <i>www.arnoldinum.de</i> um eine alphabetische Liste der Lehrer in verschiedenen Formaten zu erstellen. Das Format kann durch den Parameter <i>print</i> geändert werden. Mögliche Werte sind "plain", "json", "html" und MySQL, wobei MySQL automatisch die Tabelle teachers befüllt sofern diese existiert.
+Ermöglicht das scrapen der Seite <i>www.arnoldinum.de</i> um eine alphabetische Liste der Lehrer in verschiedenen Formaten zu erstellen. Das Format kann durch den Parameter <i>print</i> geändert werden. Mögliche Werte sind "plain", "json", "html" und "mysql", wobei MySQL automatisch die Tabelle teachers befüllt sofern diese existiert.
 
 <h2>TODO</h2>
 <i>bzw Features die wahrscheinlich niemals implementiert werden</i>
