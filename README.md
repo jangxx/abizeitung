@@ -17,7 +17,7 @@ Zur Benutzung aller Tools wird ein Sessioncookie eines Adminlogins benötigt. Di
 Exportiert die Kommentare in Dateien in der Form <i>Nachname, Vorname,txt</i> in den Ordner <i>export/comment-&lt;Datum+Uhrzeit&gt;</i> und zeigt die Zahl der exportierten Kommentare an. Die Dateien sind im Windows Format mit \r\n als Newline-character. <strong>Benötigt Schreibberechtigungen im <i>tools</i> Ordner.</strong>
 
 <h3>description_export.php</h3>
-Exportiert die Steckbriefe aller Benutzer in die Datei <i>desc-&lt;Datum+Uhrzeit&gt;.cvs</i> im Ordner <i>export</i>. Die csv-Datei ist Tab-seperated. Dies muss beim Import in z.B. InDesign oder LibreOffice eingestellt werden. Das Encoding ist UTF-8. <strong>Benötigt Schreibberechtigungen im <i>tools</i> Ordner.</strong>
+Exportiert die Steckbriefe aller Benutzer in die Datei <i>desc-&lt;Datum+Uhrzeit&gt;.csv</i> im Ordner <i>export</i>. Die csv-Datei ist Tab-seperated. Dies muss beim Import in z.B. InDesign oder LibreOffice eingestellt werden. Das Encoding ist UTF-8. <strong>Benötigt Schreibberechtigungen im <i>tools</i> Ordner.</strong>
 
 <h3>names.php</h3>
 Gibt alle Namen im html-Format nach Nachnamen geordnet aus.
@@ -35,7 +35,7 @@ Zeigt alle eingesendeten Zitate im html-Format an.
 Zeigt die Anzahl aller Kommentare, den Durchschnitt und die Zahl der Kommentare eines jeden Benutzers an.
 
 <h3>teachers.php</h3>
-Ermöglicht das scrapen der Seite www.arnoldinum.de um eine alphabetische Liste der Lehrer in verschiedenen Formaten zu erstellen. Das Format kann durch den Parameter <i>print</i> geändert werden. Mögliche Werte sind "plain", "json", "html" und "mysql", wobei MySQL automatisch die Tabelle teachers befüllt sofern diese existiert.
+Ermöglicht das scrapen der Seite www.arnoldinum.de um eine alphabetische Liste der Lehrer in verschiedenen Formaten zu erstellen. Das Format kann durch den Parameter <i>print</i> geändert werden. Mögliche Werte sind "plain", "json", "html" und "mysql", wobei letzterer automatisch die MySQL-Table <i>teachers</i> befüllt sofern diese existiert.
 
 <h2>TODO</h2>
 <i>bzw Features die wahrscheinlich niemals implementiert werden</i>
@@ -52,3 +52,5 @@ Ermöglicht das scrapen der Seite www.arnoldinum.de um eine alphabetische Liste 
 <strong>Diese Seite ist nicht für den Internet Explorer optimiert und läuft auf machen Versionen dieses garnicht
 
 <strong>Bugs bitte hier bei GitHub unter Issues melden. Vielleicht gucke ich dann nochmal rein. Ansonsten gerne selbst fixen ;)</strong>
+
+<strong>Die Benutzung und Installation dieser Webapplikation ist abolut kostenlos. Der Verkauf ist ausgeschlossen</strong>
